@@ -1,0 +1,164 @@
+/* CSS Document */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&family=Nova+Square&display=swap');
+
+img{
+	max-width:100%;
+}
+
+
+nav {
+	width: 100%;
+	float: right;
+	margin:0;
+}
+
+nav ul {
+	list-style-type:none;
+	margin: 0;
+}
+
+nav li {
+	display: inline-block; 
+	font-size: 1em;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-weight: bold;
+	color:aliceblue;
+}
+
+h1{
+	color:rgba(255,255,255,1.00);
+	text-align:center;
+	font-family: 'Gluten', cursive;
+	font-size:50px;
+	padding-top:50px; 
+}
+
+/* background-image:url(.../images/blah.png)
+	background-repeat: no-repeat;
+	background-size:cover; */
+
+body{
+	background-image:url("../images/x-mas.header.jpg");
+}
+
+#container{
+	width: 100%;
+	min-height:500px;
+}
+
+#presents{
+	display:grid;
+	width: 95%;
+	margin: 30px auto;
+	grid-template-columns: 30% 30% 30%;
+	grid-template-areas: 
+		"it1 it2 it3"
+		"it4 ad  it5"
+		"it6 it7 it8"
+		"foot foot foot";
+		
+	grid-gap: 2%;
+	justify-content: center;
+}
+
+#item1 {
+	grid-area: it1;
+	background-image:url("../images/cakepops.jpg");
+	background-size:cover;
+	min-height: 300px;
+}
+
+#item2 {
+	grid-area:it2;
+	background-color:rgba(23,134,195,0.86);
+	background-image:url("../images/desk2.png");
+	background-size:contain;
+	background-repeat:no-repeat;
+	min-height: 300px;
+}
+
+#item3 {
+	grid-area:it3;
+	background-image:url("../images/aquarium-16625_1920.jpg");
+	background-size:contain;
+	background-repeat:no-repeat;
+	min-height: 300px;
+}
+
+#item4 {
+	grid-area: it4;
+	background-image:url("../images/monitor.png");
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-color:rgba(23,134,195,0.86);
+	min-height: 300px;
+}
+
+#ad {
+	grid-area: ad;
+	background-color: rgba(4,144,66,.50);
+	min-height: 300px;
+}
+
+#item5 {
+	grid-area: it5;
+	background-image:url("../images/shrimp.jpg");
+	background-size:contain;
+	background-repeat:no-repeat;
+	min-height: 300px;
+}
+
+#item6 {
+	grid-area:it6;
+	background-image:url("../images/money.jpg");
+	background-color:rgba(4,144,66,.50);
+	background-size:cover;
+	min-height: 300px;
+}
+
+#item7 {
+	grid-area: it7;
+	background-color:rgba(23,134,195,0.86); 
+	background-image:url("../images/fish_tank.png");
+	background-size:contain;
+	min-height: 300px;
+}
+
+#item8 {
+	grid-area: it8;
+	background-color: rgba(23,134,195,0.86);
+	min-height: 300px;
+	background-image:url("../images/stand.png");
+	background-size:cover;
+}
+
+header{
+	background-image:url("../images/header.jpg");
+	min-height:150px;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+footer{
+	background-color:rgba(20,78,107,0.81);
+	color:white;
+	margin: 50px 15px;
+}
+
+h3{
+	text-align:center;
+	background-color: rgba(3,46,28,0.91);
+	min-height:50px;
+	font-family: 'Nova Square', sans-serif;
+	color:rgba(20,201,156,1.00);
+	padding-top:10px;
+}
+
+	
+
+
+
+
+

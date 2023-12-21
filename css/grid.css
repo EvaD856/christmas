@@ -1,0 +1,89 @@
+/* CSS Document */
+
+/* background-image:url(.../images/blah.png)
+	background-repeat: no-repeat;
+	background-size:cover; */
+
+body{
+	background-color:antiquewhite
+}
+
+#container{
+	width: 100%;
+	background-color:aqua;
+	min-height: 500px;
+}
+
+#presents{
+	display:grid;
+	width: 100%;
+	margin: 0 auto;
+	grid-template-columns: 30% 30% 30%;
+	grid-template-areas: 
+		"it1 it2 it3"
+		"it4 ad  it5"
+		"it6 it7 it8"
+		"foot foot foot";
+		
+	grid-gap: 2%;
+	justify-content: center;
+}
+
+#item1 {
+	grid-area: ad;
+	background-color: #f00;
+	min-height: 400px;
+}
+
+#item2 {
+	grid-area:it2;
+	background-color: #00f;
+	min-height: 400px;
+}
+
+#item3 {
+	grid-area:it3;
+	background-color:#0f0;
+	min-height: 400px;
+}
+
+#item4 {
+	grid-area: it4;
+	background-color: #ff0;
+	min-height: 400px;
+}
+
+#ad {
+	grid-area: it1;
+	background-color: #000000ff;
+	min-height: 400px;
+}
+
+#item5 {
+	grid-area: it5;
+	background-color: #f0f;
+	min-height: 400px;
+}
+
+#item6 {
+	grid-area:it6;
+	background-color: #0ff;
+	min-height: 400px;
+}
+
+#item7 {
+	grid-area: it8;
+	background-color: #fff;
+	min-height: 400px;
+}
+
+#item8 {
+	grid-area: it7;
+	background-color: #FFCC33;
+	min-height: 400px;
+}
+
+
+
+
+
